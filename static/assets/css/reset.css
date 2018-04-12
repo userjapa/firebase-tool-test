@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	z-index: 0;
+}
+
+a:focus, button:focus, input:focus {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'IBM Plex Sans', sans-serif;
+}

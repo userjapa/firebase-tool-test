@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Firebase Cloud Messaging - Test</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+  </head>
+  <body>
+    <div class="container main">
+      <div class="item info">
+        <h2>Welcome to Firebase Cloud Messaging Test!</h2>
+        <p>This PWA is also using Firebase Database! Thanks, Google!</p>
+      </div>
+      <div class="item info message">
+        <p id="message">Loading...</p>
+        <button id="login" onclick="authenticate()"> Login </button>
+        <button id="notify" onclick="allowNotify()"> Allow Notification </button>
+        <button id="logout" onclick="signOut()"> Logout </button>
+      </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script type="text/javascript" src="./assets/js/index.js"></script>
+  </body>
+</html>

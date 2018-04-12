@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container .item {
+  align-self: center;
+  width: 100%;
+}
+
+.main {
+  background-color: rgba(214, 214, 214, .55);
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 95%;
+}
+
+.main .info {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.main .info p {
+  padding-top: 10px;
+}
+
+.main .message {
+  flex-grow: 2;
+  font-weight: bold;
+}
+
+.main .message p {
+  padding-bottom: 10px;
+}
+
+.main .message button {
+  padding: 15px 25px;
+  border-radius: 3px;
+  background-color: #d6d6d6;
+  border: 1px solid #d6d6d6;
+  transition: .2s;
+  display: none;
+}
+
+.main .message button:hover {
+  background: rgba(214, 214, 214, .35);
+}
+
+.main .message button:active {
+  transition: 0s;
+  background: rgba(214, 214, 214, 0);
+}

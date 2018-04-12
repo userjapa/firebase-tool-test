@@ -1,0 +1,22 @@
+{
+  "name": "firebase-cloud-messaging-test",
+  "version": "1.0.0",
+  "description": "Testing Firebase Tools",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": "https://github.com/usuarioJapa/firebase-tool-test.git",
+  "author": "userjapa",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "firebase-admin": "^5.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
